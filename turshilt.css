@@ -1,0 +1,28 @@
+.box{
+display: flex;
+width: 384px;
+height: 527px;
+padding: var(--0-px-unit-0, 0);
+flex-direction: column;
+align-items: flex-start;
+}
+.tolgoi{
+display: flex;
+padding: var(--spacing-8, 32px) var(--24-px-unit-6, 24px) var(--24-px-unit-6, 24px) var(--24-px-unit-6, 24px);
+align-items: center;
+gap: var(--16-px-unit-4, 16px);
+align-self: stretch;
+}
+.ah{
+color: #303030;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+display: flex;
+align-items: center;
+gap: ;
+align-self: stretch;
+}

@@ -1,0 +1,13 @@
+.father {
+  width: 1000px;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.child2 {
+  color: white;
+}

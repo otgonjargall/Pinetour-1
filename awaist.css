@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  background-image: url(images/sec1-bg.png);
+  width: 1440px;
+  height: 733px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navigation {
+  height: auto;
+  display: flex;
+  width: 1440px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  padding: 45px;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.icon-user {
+  width: 20px;
+  height: 20px;
+}
+img {
+  width: 100px;
+  height: 34px;
+}
+.lang {
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  background-color: aliceblue;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text1 {
+  font-size: 100px;
+  color: white;
+  font-family: sans-serif;
+}
+.hero-text2 {
+  font-size: 80px;
+  color: white;
+  font-family: sans-serif;
+}
+.h2 {
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+}
+.locations {
+  background-image: url(images/sec2-bg.png);
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#card-image-1 {
+  background-image: url(images/sec2-location1.png);
+}
+#card-image-2 {
+  background-image: url(images/sec2-location2.png);
+}
+#card-image-3 {
+  background-image: url(images/sec2-location3.png);
+}
+#card-image-4 {
+  background-image: url(images/sec2-location4.png);
+}
+.card {
+  width: 275.49px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spot-name {
+  color: rgba(253, 253, 254, 0.8);
+  text-align: center;
+  text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 232px;
+}
+
+.map {
+  background-image: url(images/sec3-bg.png);
+  height: 1030px;
+  width: 1440px;
+}
+.header {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.spot {
+  height: 112px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Destination-box {
+  width: 640px;
+  align-items: end;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.color1 {
+  background-color: aliceblue;
+}
+.color2 {
+  background-color: aliceblue;
+}
+.color3 {
+  background-color: aliceblue;
+}
+.color4 {
+  background-color: aliceblue;
+}
+.color5 {
+  background-color: aliceblue;
+}
+#Destination-name {
+  width: 513px;
+  height: 120;
+  border-radius: 120px;
+  background-color: wheat;
+}
+
+.span {
+  width: 300px;
+  font-size: 24px;
+  font-family: inter;
+  display: inline-block;
+}
+p {
+  font-size: 12px;
+}
+
+.location-details {
+  display: flex;
+}
+#icon-pin {
+  width: 12px;
+  height: 12px;
+}
+
+.Ulaanbaator {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 210px;
+  left: 400px;
+}
+.bulgan {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 210px;
+  left: 400px;
+}
+.arhangai {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 210px;
+  left: 400px;
+}
+.khuvsgul {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 210px;
+  left: 400px;
+}
+.day {
+  background-color: antiquewhite;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bord-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bord {
+  width: 384px;
+  height: 527px;
+  background-color: aliceblue;
+  border-radius: 40px;
+}
+.icon-fav {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.price {
+  color: #303030;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.price p {
+  color: #303030;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+h3 {
+  color: #919191;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.includes {
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
