@@ -73,6 +73,12 @@ img {
   align-items: center;
   justify-content: space-evenly;
 }
+.locations1:hover {
+  border: 2px solid gray;
+}
+.locations1:hover img {
+  display: flex;
+}
 #card-image-1 {
   background-image: url(images/sec2-location1.png);
 }
@@ -220,8 +226,9 @@ p {
 }
 .bord-box {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  align-items: center;
+  justify-content: space-around;
 }
 .bord {
   width: 384px;
@@ -247,7 +254,6 @@ p {
 .price p {
   color: #303030;
   font-family: Montserrat;
-  font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -267,4 +273,21 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.top img {
+  width: 20px;
+  height: 20px;
+}
+.button {
+}
+.price {
+  width: 1440px;
+  background-image: url(images/sec4-bg.png);
+  display: flex;
+  flex-direction: column;
 }
