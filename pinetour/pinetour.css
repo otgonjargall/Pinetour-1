@@ -5,7 +5,7 @@
 }
 .container {
   background-image: url(images/sec1-bg.png);
-  width: 1440px;
+  width: 100vw;
   height: 733px;
   display: flex;
   justify-content: center;
@@ -283,8 +283,7 @@ h3 {
   width: 20px;
   height: 20px;
 }
-.button {
-}
+
 .price {
   width: 1440px;
   background-image: url(images/sec4-bg.png);
