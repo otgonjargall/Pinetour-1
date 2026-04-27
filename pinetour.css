@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url(zurag/HeroImage.png);
+  width: 1440px;
+  height: 733px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+}
+.pinetour-logo {
+  width: 101px;
+  height: 35px;
+}
+.text {
+  display: flex;
+  gap: 24px;
+}
+.child {
+  width: 100px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.useg {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 40px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pure {
+  font-size: 80px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.awaist {
+  font-size: 200px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.da {
+  font-size: 64px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart-image {
+  background-image: url(zurag/Location\ image.png);
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cart {
+  width: 275.49px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart:hover {
+  filter: brightness(0.5);
+  box-shadow:
+    -8px 8px 0 0 #29728b40,
+    8px 8px 0 0 #29728b40;
+}
+#cart1 {
+  background-image: url(zurag1/1.png);
+}
+#cart2 {
+  background-image: url(zurag1/2.png);
+}
+#cart3 {
+  background-image: url(zurag1/3.png);
+}
+#cart4 {
+  background-image: url(zurag1/4.png);
+}
+.ter {
+  width: 232px;
+  font-size: 34px;
+  color: #fdfdfe;
+  font-weight: 400;
+  text-align: center;
+}
+.ter1 {
+  width: 232px;
+  font-size: 25px;
+  color: #fdfdfe;
+  font-weight: 400;
+  text-align: center;
+}
+.map {
+  background-image: url(zurag/Roadmap\ image.png);
+  width: 1440px;
+}
+.road {
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 42px;
+  width: 513px;
+  height: 50px;
+}
+.subtitle {
+  font-size: 24px;
+}
+.gazar {
+  margin: 60px 121px 0;
+}
+
+#bairshil-name {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  justify-content: space-between;
+  border: 2px solid transparent;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+#bairshil-name:hover {
+  border: 2px solid bisque;
+}
+#bairshil-name:hover.Frame {
+  display: block;
+}
+
+.Frame {
+  position: absolute;
+  right: 10px;
+  top: 450px;
+  display: none;
+}
+.Frame1 {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+.Frame2 {
+  position: absolute;
+  right: 0%;
+  top: 30px;
+}
+.Frame3 {
+  position: absolute;
+  right: 0%;
+  top: 30px;
+}
+.Frame4 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  right: 0%;
+  top: 30px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.aimag {
+  font-size: 24px;
+}
+.hayg {
+  display: flex;
+  gap: 5px;
+}
+.icon-container {
+  width: 12px;
+  height: 12px;
+}
+.day {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  width: 300px;
+  font-size: 400px;
+}
+.pricing {
+  background-image: url("zurag/Price&Footer image.png");
+  width: 1440px;
+}
+.une {
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.une-gazar {
+  font-size: 42px;
+  height: 50px;
+}
+.une-map {
+  font-size: 20px;
+}
+.pricing-card {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+.sell {
+  width: 384px;
+  height: 577px;
+  background-color: white;
+  border-radius: 40px;
+}
+.sell:hover {
+  box-shadow:
+    -8px 8px 0 0 #29728b40,
+    8px 8px 0 0 #29728b40;
+}
+.sell:hover .button {
+  background-color: black;
+  color: white;
+}
+.budget {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+.IconButton {
+  width: 36px;
+  height: 36px;
+}
+.dollar {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+}
+.dollar1 {
+  font-size: 40px;
+}
+.dollar2 {
+  font-size: 16px;
+}
+.jagsaalt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.check {
+  width: 20px;
+  height: 20px;
+}
+.includes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.includes1 {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.button {
+  width: 300px;
+  height: 36px;
+  border-radius: 9999px;
+  background-color: #a4d1e2;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+.footer {
+  padding: 160px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.social {
+  width: 171px;
+  height: 40px;
+  border-radius: 9999px;
+  background-color: white;
+  color: #6972b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.Facebook {
+  width: 24px;
+  height: 24px;
+}
+.Instagram {
+  width: 24px;
+  height: 24px;
+}
+.pinetour-logo {
+  width: 101px;
+  height: 35px;
+  margin-left: auto;
+}
