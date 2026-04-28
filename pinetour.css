@@ -5,9 +5,9 @@
 }
 .header {
   background-image: url(zurag/HeroImage.png);
-  width: 1440px;
+  width: 100vw;
   height: 733px;
-
+  background-size: cover;
 }
 .content {
   display: flex;
@@ -62,11 +62,12 @@
 }
 .cart-image {
   background-image: url(zurag/Location\ image.png);
-  width: 1440px;
+  width: 100vw;
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-size: cover;
 }
 .cart {
   width: 275.49px;
@@ -111,7 +112,8 @@
 }
 .map {
   background-image: url(zurag/Roadmap\ image.png);
-  width: 1440px;
+  width: 100vw;
+  background-size: cover;
 }
 .road {
   height: 204px;
@@ -143,16 +145,16 @@
   padding: 30px;
 }
 #bairshil-name:hover {
-  border: 2px solid bisque;
+  border: 2px solid red;
 }
 #bairshil-name:hover.Frame {
   display: block;
 }
 
 .Frame {
-  position: absolute;
+  width: 245px;
+  height: 245px;
   right: 10px;
-  top: 450px;
   display: none;
 }
 .Frame1 {
@@ -209,7 +211,8 @@
 }
 .pricing {
   background-image: url("zurag/Price&Footer image.png");
-  width: 1440px;
+  width: 100vw;
+  background-size: cover;
 }
 .une {
   height: 204px;
