@@ -147,38 +147,52 @@
 #bairshil-name:hover {
   border: 2px solid red;
 }
-#bairshil-name:hover.Frame {
+
+.suhbaatar {
+ position: absolute;
+  right: 450px;
+  top: 1200px;
+  display: none;
+}
+#bairshil-name:hover .suhbaatar {
+  display: block;
+}
+.terhiin {
+  position: absolute;
+  right: 140px;
+  top: 1350px;
+  display: none;
+}
+#bairshil-name:hover .terhiin {
+  display: block;
+}
+.amgalan {
+  position: absolute;
+  right: 450px;
+  top: 1550px;
+  display: none;
+}
+#bairshil-name:hover .amgalan {
+  display: block;
+}
+.huvsgul {
+  position: absolute;
+  right: 150px;
+  top: 1860px;
+  display: none;
+}
+#bairshil-name:hover .huvsgul {
+  display: block;
+}
+.horgiin {
+  position: absolute;
+  right: 450px;
+  display: none;
+}
+#bairshil-name:hover .horgiin {
   display: block;
 }
 
-.Frame {
-  width: 245px;
-  height: 245px;
-  right: 10px;
-  display: none;
-}
-.Frame1 {
-  position: absolute;
-  right: 0px;
-  top: 30px;
-}
-.Frame2 {
-  position: absolute;
-  right: 0%;
-  top: 30px;
-}
-.Frame3 {
-  position: absolute;
-  right: 0%;
-  top: 30px;
-}
-.Frame4 {
-  width: 245px;
-  height: 245px;
-  position: absolute;
-  right: 0%;
-  top: 30px;
-}
 .name {
   display: flex;
   flex-direction: column;
